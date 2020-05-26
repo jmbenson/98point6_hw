@@ -18,7 +18,7 @@ profile API that returns detailed player information based on the player id.
   - `python Player_Data_ETL.py`
   - `python Game_Data_ETL.py`
   - `python Create_Report_View.py`
-* To select from the views open a command prompt in the root directory and run the following:
+* To select from the views, open a command prompt in the root directory and run the following:
   - `docker exec -it pg-container bash`
   - `psql -U postgres -W 9dt_db` and when prompted, enter the password: 1234
 * Once in psql, you can run the following:
